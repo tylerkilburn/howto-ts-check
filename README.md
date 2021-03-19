@@ -3,14 +3,15 @@
 ## Summary
 This is short "How To" on using the awesome type safety of Typescript in Vanilla JS.
 It is an extremely flexible option for adding typing to JS and requires very little setup and no build process.
-You basically add a comment to the top of a file to enable checking and annotation functions, variables, objects and classes as needed or you see fit.
+You basically add a comment to the top of a file to enable checking and then annotate functions, variables, objects and classes as needed.
 <br />
 <br />
+
 When ts-check is enabled, you also get implicit type checking for anything that VS Code can infer.
 <br />
 <br />
-## Adding to a File
 
+## Adding to a File
 At the top of your js file add the following comment
 ```js
 //@ts-check
@@ -162,4 +163,3 @@ You can import from typescript or TS type definition files with the following an
  * @typedef {import("./to/my/path/file.d.ts").IAwesomeType} IAwesomeType
  */
 ```
-
