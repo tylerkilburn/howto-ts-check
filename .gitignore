@@ -1,0 +1,20 @@
+# Directories
+.classpath/
+.DS_Store/
+.gradle/
+.history/
+.idea/
+.npmrc/
+.project/
+.settings/
+.vscode/
+bin/
+build/
+coverage/
+dist/
+node_modules/
+
+# Files
+*.iml
+*.tgz
+npm-debug.log
