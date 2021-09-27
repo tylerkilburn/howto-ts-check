@@ -40,11 +40,11 @@ To explicitly opt out of type checking add this to a file:
 Annotate next line:
 ```js
 /** @type {string} */
-var myVarAsString = dateFromSomethingFnCall();
+var myVarAsString = dataFromSomethingFnCall();
 ```
 Annotate inline - note use of parens to wrap expression:
 ```js
-var myVarAsNumber = /** @type {number} */(dateFromSomethingFnCall());
+var myVarAsNumber = /** @type {number} */(dataFromSomethingFnCall());
 ```
 ### `Variable (Inline) Template`
 ```js
