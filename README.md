@@ -91,7 +91,7 @@ function(a, b) {
 <br />
 
 ## Interfaces  / Custom Types
-To Create an Custom Type
+To Create a Custom Type
 ```js
 /**
  * @typedef { "NORTH" | "EAST" | "SOUTH" | "WEST" } CompassDirection
@@ -116,6 +116,8 @@ To Create an Interface
  * @property {__TYPE__} __NAME__
  */
 ```
+<br />
+<br />
 
 ## Classes
 
@@ -152,8 +154,8 @@ class CoordinatePoint {
     }
 }
 ```
-
-
+<br />
+<br />
 
 ## "Import" Types
 You can import from typescript or TS type definition files with the following annotation
